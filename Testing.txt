@@ -1,1 +1,11 @@
-Now I'm testing pushing other than readme :P
+cd to the spot you want the folder to be in (named DCPU)
+if you already have one cd into it
+then do:
+git init
+git remote add origin git@github.com:meeees/DCPU.git
+git add (name of your file here)
+git commit -m '(message here)'
+git pull origin master
+git push
+
+type in the ssh key when needed
